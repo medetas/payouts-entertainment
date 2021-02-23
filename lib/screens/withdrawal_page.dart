@@ -181,12 +181,12 @@ class _WithdrawalPageState extends State<WithdrawalPage> {
           Column(
             children: [
               // keyNotVisible ? Container() :
-              LabelColored(
-                label1: label1,
-                label2: label2,
-                label3: label3,
-                label4: label4,
-              ),
+              // LabelColored(
+              //   label1: label1,
+              //   label2: label2,
+              //   label3: label3,
+              //   label4: label4,
+              // ),
               ButtonAccept(
                 disable: amountBool |
                     cardNumBool |

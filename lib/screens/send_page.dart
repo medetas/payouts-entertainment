@@ -149,9 +149,9 @@ class _SendPageState extends State<SendPage> {
                 ),
           Column(
             children: [
-              keyNotVisible
-                  ? Container()
-                  : LabelColored(label1: greyLabel, label2: blueLabel),
+              // keyNotVisible
+              //     ? Container()
+              //     : LabelColored(label1: greyLabel, label2: blueLabel),
               ButtonAccept(
                 disable: amountBool | usernameBool,
                 buttonLabel: buttonLabel,
